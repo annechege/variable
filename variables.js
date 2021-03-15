@@ -7,7 +7,7 @@ const perShed = {
     d: 572
 }
 // end of key values:
-
+// addition of products:
 function totalProduction(){
 	for(let shed in perShed){
         console.log(`Your production in Shed ${shed.toLocaleUpperCase()} ${perShed[shed]} litres per day `)
@@ -20,6 +20,7 @@ function totalProduction(){
 
     return obj.reduce(reducer);
 }
+// end of addition product:
 
 function incomeOverTime(selling_price, time){
     switch (time) {
