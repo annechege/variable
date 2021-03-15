@@ -1,9 +1,12 @@
+// key values
+
 const perShed = {
 	a: 510,
     b: 308,
     c: 486,
     d: 572
 }
+// end of key values:
 
 function totalProduction(){
 	for(let shed in perShed){
