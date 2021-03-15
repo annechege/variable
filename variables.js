@@ -21,7 +21,7 @@ function totalProduction(){
     return obj.reduce(reducer);
 }
 // end of addition product:
-
+// calculating amount within weekly and annual production:
 function incomeOverTime(selling_price, time){
     switch (time) {
         case 'weekly':
@@ -41,7 +41,7 @@ function incomeOverTime(selling_price, time){
     }
     checkLeapYear(2020, selling_price);
 }
-
+// end of calculating amount within weekly and annually:
 function checkLeapYear(year, selling_price){
     const monthNames = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
